@@ -29,7 +29,7 @@ export class AppComponent implements OnInit {
 
   submit(): void {
     if (this.form.value.code.trim() === this.answers[this.form.value.teamName]) {
-      this.message = 'Ответ: Этот ключ от кладовой №208. Поспешите!';
+      this.message = 'Ответ: Этот ключ от кладовой №207. Поспешите!';
       return;
     }
     this.message = 'Ответ неверный!';
